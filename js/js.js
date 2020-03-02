@@ -1,6 +1,39 @@
-var frutas = [{nome: "Maça", cor: "Vermelha"}, {nome:"Uva", cor: "Roxa"}]
-console.log(frutas)
-console.log(frutas[0].nome + " " + frutas[0].cor)
+function mudarTexto(elemnto) {
+    elemnto.innerHTML = "Texto Mudado"
+
+}
+function voltarTexto(elemnto) {
+    elemnto.innerHTML = "Passe o Mouse"
+}
+
+function abrir() {
+    alert("TESTE")
+
+}
+
+function selecionado(elemento) {
+    elemento.value = "Selecionado"
+
+}
+
+function foco(elemento) {
+    elemento.value = "Componente focado"
+}
+
+function selecionar(elemento) {
+    alert(elemento.value)
+}
+
+// var frutas = [
+//     {nome: prompt("Qual a 1ª fruta?"), cor: prompt("E sua Cor?")},
+//     {nome: prompt("Qual a 2ª fruta?"), cor: prompt("E sua Cor?")},    
+//     {nome: prompt("Qual a 3ª fruta?"), cor: prompt("E sua Cor?")},    
+//     {nome: prompt("Qual a 4ª fruta?"), cor: prompt("E sua Cor?")},    
+//     {nome: prompt("Qual a 5ª fruta?"), cor: prompt("E sua Cor?")},    
+// ]
+// console.log(frutas)
+// console.log(`${frutas[0].nome} ${frutas[0].cor}`)
+// console.log(frutas[0].nome + " " + frutas[0].cor)
 
 // var x = "Teste de TROCA:", y = "Teste mal sucessido!"
 // console.log(x + " " + y)
