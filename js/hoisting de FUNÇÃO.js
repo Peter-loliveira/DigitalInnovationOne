@@ -1,15 +1,16 @@
-// const user = {
-//     name: "Peter",
-//     lastName: "Lange Oliveira"
-// }
+const user = {
+    name: "Peter",
+    lastName: "Lange Oliveira"
+}
 
-// function getUserWithFullName(user) {
-//     return {
-//         ...user,
-//         fullName: `${user.name} ${user.lastName}`
-//     }
-// }
 
-// const userWhithFullName = getUserWithFullName(user)
+function getUserWithFullName(userName) {
+    return {
+        ...userName,
+        fullName: `${userName.name} ${userName.lastName}`
+    }
+}
 
-// console.log(userWhithFullName)
+const userWhithFullName = getUserWithFullName(user)
+
+console.log(userWhithFullName)
