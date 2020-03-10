@@ -1,20 +1,16 @@
-console.log("Hoisting de Variaveis")
-console.log("fn()")
+console.log("Hoisting de Variaveis");
 function fn() {
     console.log(texto)
-
-    var texto = "Peter"
-
+    var texto = "peter"
     console.log(texto)
 }
 fn()
 
-console.log("fn2()")
+console.log("Execmplo de Hoisting de Função");
 function fn2() {
-    var texto
-    console.log(texto)
-
-    texto = "Peter"
-    console.log(texto)
+    log()
+    function log() {
+        console.log( "Hoisting Funcionando")
+    }    
 }
 fn2()

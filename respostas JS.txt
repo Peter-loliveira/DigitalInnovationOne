@@ -1,0 +1,34 @@
+Você está programando a tela de um jogo. Existem 3 opções de personagens para você escolher e eles são de raças diferentes
+<select onchange="mostrarPoderes(this)"><option value="Humano"></option><option value="Elfo"></option><option value="Orc"></option></select>
+
+Se tratando de funções, assinale a alternativa errada:
+Valores podem ser passados para uma função, que retorna uma variável.
+
+Na estrutura HTML você observa o seguinte comando:
+<body onload="carregou()">
+A função "carregou" será chamada assim que a página web for carregada, mas seu conteúdo pode ser diverso.
+
+Assinale a alternativa que melhor define a diferença entre variável global e local.
+A variável local é declarada dentro de uma função, enquanto a variável global é declarada fora da função e pode ser usada dentro da função.
+
+I- O comando  window.open abre a página em outra janela.
+II – O comando window.location.href abre a página em outra aba. 
+III – O redirecionamento permite que o usuário saia da página atual e vá para outra, seja através da aba ou da janela.
+Apenas III está correta.
+
+Você precisa criar uma tela na qual possua uma espécie de vitrine com vários objetos, cada objeto é um jogo de tabuleiro. A imagem do objeto é a capa da embalagem do jogo. Ao passar o mouse, a pessoa consegue ver o verso da embalagem, mas ao tirar o mouse volta para a capa da embalagem. Ao clicar, a pessoa pode ver fotos do conteúdo do jogo. Sendo assim, qual opção abaixo é mais adequada para o desenvolvimento da vitrine?
+<button id="eldritch_horror" onclick="detalhes(this)" onmouseover="mousesobre(this)" onmouseout="mousefora(this)">Eldritch Horror</button>
+
+Assinale a alternativa que melhor define a ideia de parâmetros de uma função.
+Os parâmetros de uma função são passados durante a chamada da função, podendo cada uma trazer valores de string, inteiro, arrays e entre outros.
+
+
+Qual a função do evento OnMouseOver?
+Definir a ação quando o usuário passa o mouse sobre o código.
+
+Qual o objetivo do evento onChange?
+É alterar o valor do elemento.
+
+Você tem uma página de web com vários bichos de pelúcia e quer presentear alguém com um personagem do desenho animado "Ursinhos Carinhosos". Para isso você usa o seguinte código JavaScript: document.getElementById("selecionado").innerHTML = "Escolheu: " + nome_personagem.
+Qual alternativa abaixo apresenta um comando HTML que se relaciona corretamente a declaração JavaScript?
+<button id="coração_valente" onclick="selecionou()">Coração Valente</button>
